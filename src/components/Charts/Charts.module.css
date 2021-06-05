@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    /* border: steelblue solid; */
+    padding: 50px;
+}
+@media only screen and(max-width : 770px)
+{
+    .container{
+        width:100%;
+
+    }
+    /* .linechart{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    } */
+}

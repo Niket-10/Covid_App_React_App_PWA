@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(243, 245,231);
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.container1{
+  border-bottom:2px black solid ;
+  display: flex;
+  
+
+}
+
+  .image {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+@media only screen and (max-width: 770px) 
+ {
+    .container {
+      margin: 0 10%;
+    }
+  
+  .image {
+    margin-left: 20%;
+    width: 50%;
+    
+    margin-bottom: 10px !important;
+  }
+}
+
+body::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #cccc;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: navy;
+} 
